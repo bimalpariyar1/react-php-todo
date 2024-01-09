@@ -1,0 +1,61 @@
+.auth-wrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    img {
+        max-width: 100px;
+        border-radius: 8px;
+    }
+}
+
+.edit-btn {
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    opacity: 0.5;
+}
+
+.dash-stat {
+    .todo-type {
+        margin-top: 7rem;
+    }
+}
+
+.todo-item {
+    .todo-thumb {
+        img {
+            width: 100px;
+            border-radius: 8px;
+        }
+    }
+
+    p,
+    h5 {
+        margin: 0;
+    }
+
+    .todo-action {
+        span {
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+.profile-edit-btn,
+.action-text-btn {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.profile-edit-btn:hover,
+.action-text-btn:hover {
+    opacity: 0.5;
+}
